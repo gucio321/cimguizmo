@@ -214,7 +214,7 @@ print("------------------generation with " .. COMPILER ..
 local modulename = "cimguizmo"
 local headers = [[#include "../imguizmo/ImGuizmo.h" 
 ]]
-local headersT = {[[imguizmo]]}
+local headersT = {[[ImGuizmo]]}
 if INTERNAL_GENERATION then
     -- headers = headers .. [[#include "../implot/implot_internal.h"
     -- ]]
